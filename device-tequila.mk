@@ -7,6 +7,9 @@
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-tequila
 
+PRODUCT_PACKAGES += \
+    NowPlayingOverlay
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/commonsys-intf/display \
